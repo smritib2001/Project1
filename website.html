@@ -1,4 +1,4 @@
-<a href="https://www.amazon.com/" target="_blank">
+<a class="link" href="https://www.amazon.com/" target="_blank">
   Back to Amazon
 </a>
 <p class="p1">Nike Black Running Shoes</p>
@@ -8,6 +8,12 @@
 <button class="Buy"> Buy now</button>
 
 <style>
+  .link{
+    color: rgb(8, 187, 187);
+  }
+.link:hover{
+  color: orangered;
+}
 .p1{
   font-weight: bold;
   font-size: 25px;
@@ -24,6 +30,12 @@
   width: 110px;
   border-radius: 15px;
 }
+.cart:hover{
+  opacity: 0.8;
+}
+.cart:active{
+  opacity: 0.4;
+}
 .Buy{
  background-color: rgb(255,164,28);
  width: 100px;
@@ -31,6 +43,12 @@
  border: none;
  border-radius: 15px;
 
+}
+.Buy:hover{
+  opacity: 0.8;
+}
+.Buy:active{
+  opacity: 0.4;
 }
 
 </style>
