@@ -1,0 +1,110 @@
+<div class="pagin">
+<button class="Back"> Back</button>
+ <a href=""> 1 </a>
+ <a href=""> 2 </a>
+ <a href=""> 3 </a>
+ <a href=""> 4 </a>
+ <a href=""> 5 </a>
+<button class="next"> Next </button>
+</div>
+
+<button class="Strech"> Strech</button>
+<button class="Shadow">Shadow</button>
+<button class="One"> One</button>
+<button class="Two">Two</button>
+<button class="Three">Three</button>
+
+<!--   Here the CSS starts -->
+<style>
+
+
+.pagin a{  padding: 8px 5px; } /*  here the pagin class is called after
+                                  that a element is called from the class*/
+                                  
+.back{
+    padding-top: 8px;
+    padding-bottom: 8px; 
+}                                
+.next{
+    margin-left: 3px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+/*----------------------*/
+.Strech{
+    margin-top: 10px;
+    padding-top: 5px;padding-bottom: 5px;
+    background-color: green;
+    color: white;
+    font: bold;
+    border: none;
+    transition: 1s;
+}
+.Strech:hover{
+background-color: green;
+padding-right: 15px;padding-left: 15px;
+padding-top: 10px; padding-bottom: 10px;
+background-color: green;
+color: white;
+}
+/*----------------------*/
+.Shadow{
+    background-color: green;
+    color: white;
+    border: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    transition: box-shadow 0.15s;
+
+   
+}
+.Shadow:hover{
+    box-shadow: 5px 5px 5px rgba(6, 0, 0, 0.15);
+}
+.Shadow:active{
+    transform: translateY(4px );
+}
+/*----------------------*/
+
+.One{
+ background-color: green;
+ color: white;
+ border: none;
+ padding-top: 5px;
+ padding-bottom: 5px;
+ margin-left: 10px;
+ transition-duration:  0.5s;
+}
+.One:hover{
+    padding-left: 15px; padding-right: 15px;
+}
+.Two{
+ background-color: green;
+ color: white;
+ border: none;
+ padding-top: 5px;
+ padding-bottom: 5px;
+ margin-left: 10px;
+ transition-duration:  0.5s;
+}
+.Two:hover{
+        padding-left: 15px; padding-right: 15px;
+}
+.Three{
+ background-color: green;
+ color: white;
+ border: none;
+ padding-top: 5px;
+ padding-bottom: 5px;
+ margin-left: 10px;
+ transition-duration:  0.5s;
+
+}
+.Three:hover{
+        padding-left: 15px; padding-right: 15px;
+
+}
+
+
+
+</style>
