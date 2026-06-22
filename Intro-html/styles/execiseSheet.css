@@ -1,25 +1,7 @@
-<div class="pagin">
-<button class="Back"> Back</button>
- <a href=""> 1 </a>
- <a href=""> 2 </a>
- <a href=""> 3 </a>
- <a href=""> 4 </a>
- <a href=""> 5 </a>
-<button class="next"> Next </button>
-</div>
-
-<button class="Strech"> Strech</button>
-<button class="Shadow">Shadow</button>
-<button class="One"> One</button>
-<button class="Two">Two</button>
-<button class="Three">Three</button>
-
-<!--   Here the CSS starts -->
-<style>
 
 
-.pagin a{  padding: 8px 5px; } /*  here the pagin class is called after
-                                  that a element is called from the class*/
+/*  here the pagin class is called after that a element is called from the class*/
+.pagin a{  padding: 8px 5px; } 
                                   
 .back{
     padding-top: 8px;
@@ -98,69 +80,76 @@ color: white;
  padding-bottom: 5px;
  margin-left: 10px;
  transition-duration:  0.5s;
+ margin-bottom: 20px;
 
 }
 .Three:hover{
         padding-left: 15px; padding-right: 15px;
 
 }
+/*-------     text styles         ---------------*/
 
-</style>
-<!--   Our button exxercise finishes here  -->
-
-
-<p class="Video-title"> 
-Talking Tech and AI with Google CEO Sundar Pichai!    
-</p>
-<p class="Video-stat">
-    3.4M views &#183; 6 months ago
-</p>
-<p class="writer">Marques Brownlee &#10003; </p>
-<p class="descrip">
-    Talking tech and AI on the heels of Google I/O. 
-    Also a daily driver phone reveal from Google's CEO.
-    Shoutout to Sundar!
-</p>
-
-<style>
-
-    p{
-        font-family: Arial;
-        margin-top: 0;
-        margin-bottom: 0px;
-    }
-.Video-title{
-font-size: 18px;
-font-weight: bold;
-font-style: italic;
-text-align:left;
-width: 280px;
-line-height: 25px;
-margin-bottom: 5px;
-
-
+.A{
+    background-color: blanchedalmond;
+    font-family: Arial;
+    text-align: center;
 }
-.Video-stat{
-    font-size: 14px;
-    color: rgb(96, 96, 96);
-    margin-bottom: 20px;
-
-
+.A1{
+    color: red;
+    font-size: 15px;
 }
-.writer{
-    color: rgb(96, 96, 96);
-    margin-bottom: 20px;
-
-   
+.A2{  font-weight: bold;}
+.A3{ 
+    font-weight: bold;
+    font-size: 32px;
 }
-.descrip{
-    font-size: 14px;
-    color: rgb(96, 96, 96);
-    width: 280px;
-    line-height: 20px;
+.money{
+    color: rgb(74, 74, 74);
+    font-size: 13px;
+    margin-top: 10px;
+}
+.A4{ margin-top: 10px;}
+.buy{
+    color: white;
+    background-color: blue;
+    border: none;
+    border-radius: 20px;
+    font-weight: bold;
+    padding-left: 10px; padding-right: 10px;
 }
 
+.B{
+    background-color: beige;
+    text-align: Arial;
+    font-size: 15px;
+}
+.B1{ font-size: 25px;}
+.B2{ color: green;}
+.B3{ color: red;}
 
-
-
-</style>
+.images{
+    background-color: antiquewhite;
+}
+.i1{
+    width: 200px;
+    border-radius: 10px;
+    border: solid;
+}
+.i2{
+    width: 200px; 
+    height: 200px; 
+    object-fit: contain; /* this entity is really impotart for innacurate image size */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-color: black;
+    border: solid;
+}
+.i3{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 200px;
+    border-radius: 100px;
+    border: solid;
+}

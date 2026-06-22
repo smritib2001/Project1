@@ -1,5 +1,5 @@
-<!-- -->
-<style>
+
+
     .SUBSCRIBE{    /* this is part one of exercise */
         background-color: rgb(200, 0, 0);
         color: white;
@@ -127,14 +127,4 @@
     }
 
 
-
-</style>
-
-<button class="SUBSCRIBE"> SUBSCRIBE </button> 
-<button class="JOIN">      JOIN      </button>
-<button class="TWEET">     Tweet     </button>
-<button class="request"> Request now </button>
-<button class="amazon"> Add to Cart  </button>
-<button class="github"> Sign up      </button>
-<button class="download">Download    </button>
 
