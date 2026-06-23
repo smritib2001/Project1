@@ -2,9 +2,14 @@
 
 .pic1{
  width: 300px;  
+ display: block;
 }
 
 .Search{
     font-size: 20px;
     margin-left: 12px;
 }
+.title{
+    width: 300px;
+}
+
